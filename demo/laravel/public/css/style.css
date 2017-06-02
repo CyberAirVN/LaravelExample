@@ -1,0 +1,244 @@
+body{
+    margin: 0;
+    background: url("http://rm.devnet.vn/assets/css/teamdev.jpg") no-repeat center center fixed;
+    font-family: sans-serif;
+}
+.header{
+    background: rgba(0, 0, 0, 0.14);
+}
+.header-menu .navbar-default{
+    margin-top: 10px;
+}
+img{
+    width: 100%;
+}
+.middle-section h2{
+    font-size: 30px;
+    line-height: 40px;
+    color: #52b400;
+    font-weight: 700;
+    padding-top: 25px;
+}
+.middle-section{
+    margin-bottom: 15px;
+}
+.help-link{
+    float: right;
+    padding: 0 5px 5px 5px;
+}
+.header-menu li{
+    /*border-right: 1px solid black;*/
+}
+.header-menu li:last-child{
+    /*border-right: none;*/
+}
+.header-menu li a{
+    /*text-decoration: none;*/
+    color: white !important;
+    padding: 18px;
+    font-size: 17px;
+}
+.header-menu ul{
+    float: right;
+    /*margin-top: 10px;*/
+    /*background: #efefef;*/
+    /*border-radius: 5px;*/
+    /*box-shadow: -2px 0 3px;*/
+}
+
+.header-menu li:hover{
+    background-color: #52b400;
+    border-radius: 2px;
+}
+#myCarousel .left.carousel-control, #myCarousel .right.carousel-control{
+    background: none;
+}
+.panel-login {
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.3);
+    border-color: #ccc;
+}
+.panel-login>.panel-heading {
+    color: #00415d;
+    background-color: #fff;
+    border-color: #fff;
+    text-align:center;
+}
+.panel-login>.panel-heading a{
+    text-decoration: none;
+    color: #666;
+    font-weight: bold;
+    font-size: 15px;
+    -webkit-transition: all 0.1s linear;
+    -moz-transition: all 0.1s linear;
+    transition: all 0.1s linear;
+}
+.panel-login>.panel-heading a.active{
+    color: #0c5800;
+    font-size: 18px;
+}
+.panel-login>.panel-heading hr{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    clear: both;
+    border: 0;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left,rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.15),rgba(0, 0, 0, 0));
+    background-image: -moz-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.15),rgba(0,0,0,0));
+    background-image: -ms-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.15),rgba(0,0,0,0));
+    background-image: -o-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.15),rgba(0,0,0,0));
+}
+.panel-login input[type="text"],.panel-login input[type="email"],.panel-login input[type="password"] {
+    height: 35px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    -webkit-transition: all 0.1s linear;
+    -moz-transition: all 0.1s linear;
+    transition: all 0.1s linear;
+}
+.panel-login input:hover,
+.panel-login input:focus {
+    outline:none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border-color: #ccc;
+}
+.btn-login {
+    background-color: #52b400;
+    outline: none;
+    color: #fff;
+    font-size: 14px;
+    height: auto;
+    font-weight: normal;
+    padding: 14px 0;
+    text-transform: uppercase;
+    border-color: #52b400;
+}
+.loginpanel .buttons .text-center a{
+    color: #00415d;
+    text-decoration: none;
+}
+.loginpanel .buttons .text-center a:hover{
+    color: #357203;
+}
+.btn-login:hover,
+.btn-login:focus {
+    color: #fff;
+    background-color: #0c5800;
+    border-color: #0c5800;
+}
+.forgot-password {
+    text-decoration: underline;
+    color: #888;
+}
+.forgot-password:hover,
+.forgot-password:focus {
+    text-decoration: underline;
+    color: #666;
+}
+.panel-login .panel-heading .row h3{
+    font-weight: 700;
+    text-align: left;
+    margin-top: 0px;
+    border-bottom: 2px #ccc solid;
+    padding-left: 25px;
+    padding-bottom: 5px;
+}
+.panel-login .panel-heading{
+    padding-top: 15px;
+}
+.middle-section-right{
+    padding: 0 50px 0 50px;
+}
+/*.carousel-inner .item .fill img{*/
+    /*height: 400px;*/
+/*}*/
+.loginpanel .buttons .text-center{
+    padding-top: 20px;
+}
+#login-submit{
+    padding: 10px 0;
+}
+.header-menu{
+    float: right;
+}
+.navbar-default{
+    background-color: transparent;
+    border-color: transparent;
+}
+.navbar-default .navbar-toggle{
+    border-color: #52b400;
+    background-color: #52b400;
+}
+.navbar-default .navbar-toggle .icon-bar{
+    background-color: #fff;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
+    background-color: #326d01;
+}
+.loginpanel .text-center a{
+    text-decoration: none;
+    color: #006abd;
+    margin-top: 10px;
+}
+.loginpanel .text-center a:hover{
+    text-decoration: none;
+    color: #52b400;
+}
+.carousel-inner .item .fill img{
+    height: 429px;
+}
+.footer{
+    background-color: #fafafa;
+    padding: 10px 0;
+}
+@media only screen and (max-width: 1200px) {
+    .footer{
+        margin-top: 20%;
+    }
+}
+@media (max-width: 768px) {
+    .header .container .row .logo-header{
+        background-color: white;
+    }
+    .header-menu{
+        text-align: center;
+    }
+    .header-menu li{
+        border-right: none;
+    }
+    .header-menu li a{
+        font-size: 17px;
+    }
+    .header-menu li:hover, .header-menu li:active, .header-menu li:focus{
+        background: rgba(82, 180, 0, 0.85);
+    }
+    .header-menu ul{
+        background: none;
+        float: none;
+        box-shadow: none;
+    }
+    .middle-section-left{
+        display: none;
+    }
+    .title-crm{
+        display: none;
+    }
+    .middle-section-right{
+        margin-top: 20%;
+        padding: 40px 0 20px 0;
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .help-link{
+        float: left;
+        padding: 5px 0 5px 0;
+    }
+}
+@media only screen and (max-width: 350px) {
+    .middle-section-right{
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+}
